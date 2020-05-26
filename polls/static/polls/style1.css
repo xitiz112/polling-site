@@ -1,0 +1,6 @@
+.home{background-image: url(images/bg-banner03.jpg);height: 100vh;background-size:cover}
+.content{padding-left:60px;padding-top: 40px;}
+h1{color: purple;}
+input{margin-top: 20px;color: purple;font-size: 20px;}
+label{color:purple;font-size: 20px;}
+h4{padding-top: 40px;}

@@ -1,0 +1,9 @@
+.home{background-color:#f8f9fa;height: 100vh;position: relative;}
+.content{padding: 30px;background-color: #cce5ff ;height: 250px;border:1px solid #fff;position: absolute;margin-top: 120px;margin-left: 80px;}
+h1{color: blueviolet;}
+a{font-size: 20px;padding: 10px;border:1px solid blueviolet;background-color:blueviolet;color: #fff;margin-left: 30px;}
+ul li{margin-top: 10px;font-size: 20px;}
+a:hover
+{
+    background-color: red;
+}
