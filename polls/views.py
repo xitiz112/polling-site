@@ -1,3 +1,4 @@
+from pyexpat import model
 from django.shortcuts import render,get_object_or_404
 from django.http import HttpResponseRedirect
 from .models import choice,Question
@@ -7,7 +8,7 @@ from django.views import generic
 
 class IndexView(generic.ListView):
     template_name = 'polls/index.html'
-    context_object_name = 'latest_question_list'
+    model= Question
 
     def get_queryset(self):
         """Return the last five published questions."""

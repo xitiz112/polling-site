@@ -18,10 +18,10 @@
             </nav>
         </header>
         <div class="polls ">
-    {% if latest_question_list %}
+    {% if object_list %}
     <ol>
-    {% for question in latest_question_list %}
-    <li><a href="{% url 'detail' question.id %}">{{ question.Question_text }}</a></li>
+    {% for question in object_list%}
+    <li><a href="{% url 'polls:detail' question.id %}">{{ question.Question_text }}</a></li>
     {% endfor %}
     </ol>
 {% else %}
